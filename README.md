@@ -1,6 +1,8 @@
 # Numerical_Solver_in_Python_for_Soil_Infiltration_Tests
 
-This is a short Python 3 script that uses the SciPy package’s integrate.odeint method to solve a set of coupled ordinary differential equations approximating the infiltration of a wetting front into unsaturated soil. It is intended to serve as a means for interpreting more complex infiltration tests than are commonly provided by analytical solution models employing idealized assumptions such as a steady-state ponding depth. A more complete discussion of the methodology and an example application are provided in my blog, (link pending). The script requires the following Python libraries:
+![Preview](https://numericalenvironmental.files.wordpress.com/2018/03/gui.png)
+
+This is a short Python 3 script that uses the SciPy package’s integrate.odeint method to solve a set of coupled ordinary differential equations approximating the infiltration of a wetting front into unsaturated soil. It is intended to serve as a means for interpreting more complex infiltration tests than are commonly provided by analytical solution models employing idealized assumptions such as a steady-state ponding depth. A more complete discussion of the methodology and an example application are provided in my blog, https://numericalenvironmental.wordpress.com/2018/03/05/interpreting-a-non-steady-soil-infiltration-test-using-a-numerical-ode-solver/. The script requires the following Python libraries:
 * SciPy
 * Matplotlib (for comparing model results with a user-provided observation set)
 * PyQt5 (to enable a simple GUI, provided as a side-project accompanying the numerical model)
