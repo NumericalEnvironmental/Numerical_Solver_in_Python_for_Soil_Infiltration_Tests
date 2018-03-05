@@ -1,0 +1,9 @@
+K	0.49
+phi	0.25
+S	0.6
+E	0.01
+Q	1.0
+QFinish	10.7
+h0	0.2
+L0	0.01
+name	pond_data
